@@ -44,6 +44,7 @@ class Root extends Component {
       <Layout>
         <AppBar
           title={`React Toolbox New Spec ${VERSION}`}
+          
           onLeftIconClick={this.handleSideBarToggle}
           className={style.appbar}
           leftIcon="menu"
